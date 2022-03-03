@@ -4,7 +4,7 @@ import ghpages from 'gh-pages';
 ghpages.publish(
     'dist', // path to public directory
     {
-        branch: 'production',
+        branch: 'gh-pages',
         repo: 'https://github.com/Anurag30112003/Svelte-Test.git', // Update to point to your repository  
         user: {
             name: 'Anurag30112003', // update to use your name
