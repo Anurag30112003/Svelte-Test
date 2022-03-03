@@ -1,9 +1,9 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish(
-    'public', // path to public directory
+    'dist', // path to public directory
     {
-        branch: 'gh-pages',
+        branch: 'production',
         repo: 'https://github.com/Anurag30112003/Svelte-Test.git', // Update to point to your repository  
         user: {
             name: 'Anurag30112003', // update to use your name
